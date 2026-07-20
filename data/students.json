@@ -1,0 +1,112 @@
+[
+    {
+        "student_id": "admin01",
+        "name": "Mess Manager Cristiano Messi Junior",
+        "room_number": "Admin Office",
+        "phone": "01710112341",
+        "join_date": "2025-01-01",
+        "role": "admin",
+        "password": "admin123",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S001",
+        "name": "Mostafa Jaman Taufique",
+        "room_number": "Room 302",
+        "phone": "01812345678",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass01",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S002",
+        "name": "Fahim Shahriar",
+        "room_number": "Room 304",
+        "phone": "01511223344",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass02",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S003",
+        "name": "Tasfik Rahman",
+        "room_number": "Room 401",
+        "phone": "01988776655",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass03",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S004",
+        "name": "Abdullah Muti",
+        "room_number": "Room 405",
+        "phone": "01722334455",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass04",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S005",
+        "name": "Imtiaz Ahmed",
+        "room_number": "Room 201",
+        "phone": "01344556677",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass05",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S006",
+        "name": "Sadman Rahman",
+        "room_number": "Room 204",
+        "phone": "01455667788",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass06",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S007",
+        "name": "Tanvir Hasan",
+        "room_number": "Room 312",
+        "phone": "01677889900",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass07",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S008",
+        "name": "Minhaz Karim",
+        "room_number": "Room 415",
+        "phone": "01899001122",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass08",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S009",
+        "name": "Zahidul Islam",
+        "room_number": "Room 310",
+        "phone": "01900112233",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass09",
+        "total_due": 0.0
+    },
+    {
+        "student_id": "S010",
+        "name": "Rayhan Chowdhury",
+        "room_number": "Room 205",
+        "phone": "01500223344",
+        "join_date": "2025-07-01",
+        "role": "student",
+        "password": "pass10",
+        "total_due": 0.0
+    }
+]

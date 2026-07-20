@@ -1,0 +1,55 @@
+[
+    {
+        "date": "2025-07-06",
+        "meal_type": "Breakfast",
+        "dishes": [
+            "Paratha",
+            "Egg Fry",
+            "Dal"
+        ]
+    },
+    {
+        "date": "2025-07-06",
+        "meal_type": "Lunch",
+        "dishes": [
+            "Rice",
+            "Beef Curry",
+            "Dal"
+        ]
+    },
+    {
+        "date": "2025-07-06",
+        "meal_type": "Dinner",
+        "dishes": [
+            "Rice",
+            "Fish Curry",
+            "Vorta"
+        ]
+    },
+    {
+        "date": "2025-07-07",
+        "meal_type": "Breakfast",
+        "dishes": [
+            "Khichuri",
+            "Egg Curry"
+        ]
+    },
+    {
+        "date": "2025-07-07",
+        "meal_type": "Lunch",
+        "dishes": [
+            "Rice",
+            "Chicken Roast",
+            "Dal"
+        ]
+    },
+    {
+        "date": "2025-07-07",
+        "meal_type": "Dinner",
+        "dishes": [
+            "Rice",
+            "Egg Bhuna",
+            "Vegetable"
+        ]
+    }
+]

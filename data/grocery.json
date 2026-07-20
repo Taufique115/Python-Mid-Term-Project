@@ -1,0 +1,152 @@
+[
+    {
+        "entry_id": "G101",
+        "date": "2026-07-01",
+        "item_name": "Minikit Rice 50kg (2 Bags)",
+        "quantity": 2.0,
+        "unit": "pcs",
+        "unit_price": 3250.0,
+        "total_cost": 6500.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G102",
+        "date": "2026-07-03",
+        "item_name": "Soybean Oil 5L Can (2 Cans)",
+        "quantity": 2.0,
+        "unit": "pcs",
+        "unit_price": 850.0,
+        "total_cost": 1700.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G103",
+        "date": "2026-07-05",
+        "item_name": "Fresh Farm Chicken 18kg",
+        "quantity": 18.0,
+        "unit": "kg",
+        "unit_price": 210.0,
+        "total_cost": 3780.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G104",
+        "date": "2026-07-10",
+        "item_name": "Rui Fish 15kg",
+        "quantity": 15.0,
+        "unit": "kg",
+        "unit_price": 320.0,
+        "total_cost": 4800.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G105",
+        "date": "2026-07-12",
+        "item_name": "Farm Eggs (12 Crates / 360 pcs)",
+        "quantity": 12.0,
+        "unit": "pcs",
+        "unit_price": 360.0,
+        "total_cost": 4320.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G106",
+        "date": "2026-07-17",
+        "item_name": "Beef 12kg (Friday Special)",
+        "quantity": 12.0,
+        "unit": "kg",
+        "unit_price": 750.0,
+        "total_cost": 9000.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G107",
+        "date": "2026-07-20",
+        "item_name": "Masoor Dal (Pulse) 15kg",
+        "quantity": 15.0,
+        "unit": "kg",
+        "unit_price": 130.0,
+        "total_cost": 1950.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G108",
+        "date": "2026-07-22",
+        "item_name": "Atta (Flour) 25kg & Potatoes 25kg",
+        "quantity": 1.0,
+        "unit": "lot",
+        "unit_price": 2725.0,
+        "total_cost": 2725.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G109",
+        "date": "2026-07-24",
+        "item_name": "Polao Rice & Biryani Spices",
+        "quantity": 1.0,
+        "unit": "lot",
+        "unit_price": 2200.0,
+        "total_cost": 2200.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G110",
+        "date": "2026-07-26",
+        "item_name": "Fresh Mixed Vegetables (Weekly Batch)",
+        "quantity": 40.0,
+        "unit": "kg",
+        "unit_price": 40.0,
+        "total_cost": 1600.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G201",
+        "date": "2026-08-01",
+        "item_name": "Minikit Rice 50kg (2 Bags)",
+        "quantity": 2.0,
+        "unit": "pcs",
+        "unit_price": 3250.0,
+        "total_cost": 6500.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G202",
+        "date": "2026-08-02",
+        "item_name": "Soybean Oil 5L Can (2 Cans)",
+        "quantity": 2.0,
+        "unit": "pcs",
+        "unit_price": 850.0,
+        "total_cost": 1700.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G203",
+        "date": "2026-08-03",
+        "item_name": "Fresh Farm Chicken 18kg",
+        "quantity": 18.0,
+        "unit": "kg",
+        "unit_price": 210.0,
+        "total_cost": 3780.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G204",
+        "date": "2026-08-05",
+        "item_name": "Farm Eggs (12 Crates)",
+        "quantity": 12.0,
+        "unit": "pcs",
+        "unit_price": 360.0,
+        "total_cost": 4320.0,
+        "added_by": "admin01"
+    },
+    {
+        "entry_id": "G205",
+        "date": "2026-08-07",
+        "item_name": "Beef 12kg (Friday Special)",
+        "quantity": 12.0,
+        "unit": "kg",
+        "unit_price": 750.0,
+        "total_cost": 9000.0,
+        "added_by": "admin01"
+    }
+]

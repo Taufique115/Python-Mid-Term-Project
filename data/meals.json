@@ -1,0 +1,205 @@
+[
+    {
+        "student_id": "S001",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S001",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S002",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S002",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S003",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S003",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S004",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S004",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S005",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S005",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S006",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S006",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S007",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S007",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S008",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S008",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S009",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S009",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S010",
+        "date": "2025-07-06",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S010",
+        "date": "2025-07-07",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S001",
+        "date": "2026-07-26",
+        "breakfast": false,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S007",
+        "date": "2026-07-28",
+        "breakfast": false,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S001",
+        "date": "2026-07-28",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": false
+    },
+    {
+        "student_id": "S001",
+        "date": "2026-08-25",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S001",
+        "date": "2026-07-29",
+        "breakfast": false,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S001",
+        "date": "2026-07-31",
+        "breakfast": true,
+        "lunch": false,
+        "dinner": true
+    },
+    {
+        "student_id": "S001",
+        "date": "2026-08-02",
+        "breakfast": false,
+        "lunch": true,
+        "dinner": true
+    },
+    {
+        "student_id": "S001",
+        "date": "2026-07-30",
+        "breakfast": false,
+        "lunch": false,
+        "dinner": true
+    },
+    {
+        "student_id": "S003",
+        "date": "2026-07-03",
+        "breakfast": true,
+        "lunch": true,
+        "dinner": false
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "request_id": "R655015",
+        "student_id": "S001",
+        "student_name": "Adnan Chowdhury",
+        "target_date": "2026-07-26",
+        "meal_type": "Dinner",
+        "current_dish": "No dishes planned yet",
+        "suggested_dish": "Fish Currey",
+        "status": "Rejected",
+        "submitted_on": "2026-07-25 04:16"
+    },
+    {
+        "request_id": "RF83B7C",
+        "student_id": "S001",
+        "student_name": "Mostafa Jaman Taufique",
+        "target_date": "2026-07-28",
+        "meal_type": "Lunch",
+        "current_dish": "Rice, Pulse, Vegetable, Fish Curry",
+        "suggested_dish": "curry",
+        "status": "Pending",
+        "submitted_on": "2026-07-27 06:11"
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "payment_id": "P001",
+        "student_id": "S001",
+        "amount": 1000.0,
+        "date": "2025-07-02",
+        "month": "2025-07",
+        "method": "bKash",
+        "note": "July advance"
+    },
+    {
+        "payment_id": "P002",
+        "student_id": "S002",
+        "amount": 800.0,
+        "date": "2025-07-03",
+        "month": "2025-07",
+        "method": "Cash",
+        "note": "July bill"
+    },
+    {
+        "payment_id": "P003",
+        "student_id": "S003",
+        "amount": 1200.0,
+        "date": "2025-07-04",
+        "month": "2025-07",
+        "method": "bKash",
+        "note": "Advance"
+    },
+    {
+        "payment_id": "P6AF8D2",
+        "student_id": "S001",
+        "amount": 880.0,
+        "date": "2026-07-27",
+        "month": "2026-07",
+        "method": "Cash",
+        "note": "Paid to manager by hand"
+    },
+    {
+        "payment_id": "P550305",
+        "student_id": "S001",
+        "amount": 100.0,
+        "date": "2026-07-27",
+        "month": "2026-07",
+        "method": "bKash",
+        "note": "Monthly bill payment"
+    },
+    {
+        "payment_id": "PA4AA6A",
+        "student_id": "S001",
+        "amount": 200.0,
+        "date": "2026-07-27",
+        "month": "2026-07",
+        "method": "bKash",
+        "note": "Monthly bill payment"
+    },
+    {
+        "payment_id": "P2E340D",
+        "student_id": "S001",
+        "amount": 100.0,
+        "date": "2026-07-27",
+        "month": "2026-07",
+        "method": "bKash",
+        "note": "Monthly bill payment"
+    },
+    {
+        "payment_id": "PCDF194",
+        "student_id": "S001",
+        "amount": 10.0,
+        "date": "2026-07-27",
+        "month": "2026-07",
+        "method": "bKash",
+        "note": "Monthly bill payment"
+    },
+    {
+        "payment_id": "P673A66",
+        "student_id": "S001",
+        "amount": 50.0,
+        "date": "2026-07-27",
+        "month": "2026-07",
+        "method": "Nagad",
+        "note": "Monthly bill payment"
+    },
+    {
+        "payment_id": "P56A540",
+        "student_id": "S001",
+        "amount": 100.0,
+        "date": "2026-07-27",
+        "month": "2026-07",
+        "method": "Cash",
+        "note": "Paid to manager by hand"
+    },
+    {
+        "payment_id": "PE36014",
+        "student_id": "S001",
+        "amount": 2000.0,
+        "date": "2026-07-27",
+        "month": "2026-07",
+        "method": "bKash",
+        "note": "Monthly bill payment"
+    }
+]
