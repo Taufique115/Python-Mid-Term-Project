@@ -14,15 +14,16 @@ class AdminDashboard:
         self.manager = manager
         self.admin_user = admin_user
         
-        # Configure root (Maximized Window Size)
+        # Configure root (Default Maximized Window Size, fully resizable & minimizable)
         self.root.title("Admin Panel - Student Mess Management System")
+        self.root.minsize(1024, 600)
+        self.root.resizable(True, True)
         try:
             self.root.state('zoomed')
         except Exception:
             sw = self.root.winfo_screenwidth()
             sh = self.root.winfo_screenheight()
             self.root.geometry(f"{sw}x{sh}")
-        self.root.resizable(True, True)
         self.root.configure(bg=COLOR_BG)
         
         # Top panel

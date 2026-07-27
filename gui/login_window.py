@@ -11,10 +11,16 @@ class LoginWindow:
         self.root = root
         self.manager = manager
         
-        # Configure root window
+        # Configure root window (Default Maximized, resizable & minimizable)
         self.root.title("Portal Selection - Student Mess Management System")
-        self.root.geometry("450x550")
-        self.root.resizable(False, False)
+        self.root.minsize(600, 500)
+        self.root.resizable(True, True)
+        try:
+            self.root.state('zoomed')
+        except Exception:
+            sw = self.root.winfo_screenwidth()
+            sh = self.root.winfo_screenheight()
+            self.root.geometry(f"{sw}x{sh}")
         self.root.configure(bg=COLOR_BG)
         
         # Draw Landing Selection Screen initially

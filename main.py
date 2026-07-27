@@ -13,9 +13,11 @@ def main():
     # This automatically loads previous data from files and seeds defaults if empty
     manager = MessManager(data_dir="data")
     
-    # Create Root Window (Maximized Window Size)
+    # Create Root Window (Default Maximized Window Size, fully resizable & minimizable)
     root = tk.Tk()
     root.title("Mess Member Management System")
+    root.minsize(1024, 600)
+    root.resizable(True, True)
     try:
         root.state('zoomed')
     except Exception:
