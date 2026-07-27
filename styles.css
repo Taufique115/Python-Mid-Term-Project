@@ -1,0 +1,544 @@
+/* ==========================================================================
+   Claymorphism (clay) Design System - AIUB Blue Mess Management System
+   ========================================================================== */
+
+:root {
+    /* Clay Theme Color Tokens */
+    --color-bg: #EEF2F6;
+    --color-card: #F8FAFC;
+    --color-primary: #6366F1;
+    --color-primary-hover: #4F46E5;
+    --color-secondary: #06B6D4;
+    --color-success: #10B981;
+    --color-warning: #F59E0B;
+    --color-danger: #EF4444;
+    --color-purple: #A855F7;
+    
+    --color-text-main: #1E293B;
+    --color-text-muted: #64748B;
+    --color-text-dim: #94A3B8;
+    
+    /* Claymorphic Soft 3D Elevation Shadows */
+    --clay-shadow-card: 
+        10px 10px 24px rgba(166, 180, 200, 0.45), 
+        -10px -10px 24px rgba(255, 255, 255, 0.9),
+        inset 3px 3px 6px rgba(255, 255, 255, 0.8), 
+        inset -3px -3px 6px rgba(0, 0, 0, 0.04);
+        
+    --clay-shadow-button: 
+        6px 6px 14px rgba(99, 102, 241, 0.35), 
+        -4px -4px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.5), 
+        inset -2px -2px 4px rgba(0, 0, 0, 0.15);
+
+    --clay-shadow-pill:
+        4px 4px 10px rgba(166, 180, 200, 0.3),
+        -4px -4px 10px rgba(255, 255, 255, 0.9),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.7);
+    
+    /* Typography */
+    --font-heading: 'Outfit', -apple-system, sans-serif;
+    --font-body: 'Inter', -apple-system, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.hp-theme {
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    font-family: var(--font-body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==========================================================================
+   Header & Navbar (Claymorphic)
+   ========================================================================== */
+.hp-navbar {
+    background: #EEF2F6;
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 1300px;
+    margin: 0.5rem auto;
+    padding: 0.85rem 1.5rem;
+    background: #F1F5F9;
+    border-radius: 24px;
+    box-shadow: var(--clay-shadow-card);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-group {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.brand-icon {
+    width: 46px;
+    height: 46px;
+    background: linear-gradient(135deg, #6366F1, #818CF8);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    box-shadow: var(--clay-shadow-button);
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-title {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: var(--color-text-main);
+}
+
+.brand-badge {
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    letter-spacing: 1px;
+}
+
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.status-pill {
+    background: #ECFDF5;
+    color: var(--color-success);
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    box-shadow: var(--clay-shadow-pill);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.pulse-dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-success);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--color-success);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+.view-toggle {
+    background: #E2E8F0;
+    padding: 6px;
+    border-radius: 18px;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1), inset -3px -3px 6px rgba(255, 255, 255, 0.8);
+    display: flex;
+    gap: 6px;
+}
+
+.toggle-btn {
+    background: transparent;
+    border: none;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 0.5rem 1.1rem;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.toggle-btn.active {
+    background: linear-gradient(135deg, #6366F1, #4F46E5);
+    color: #FFFFFF;
+    box-shadow: var(--clay-shadow-button);
+}
+
+/* ==========================================================================
+   Main Content Layout
+   ========================================================================== */
+.hp-main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 100%;
+    flex: 1;
+}
+
+.hp-banner {
+    background: linear-gradient(135deg, #E0E7FF, #EEF2FF);
+    border-radius: 28px;
+    padding: 2rem 2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--clay-shadow-card);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-tag {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: var(--color-primary);
+    margin-bottom: 0.4rem;
+}
+
+.banner-content h1 {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-text-main);
+    margin-bottom: 0.25rem;
+}
+
+.banner-content p {
+    color: var(--color-text-muted);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.banner-clock {
+    text-align: right;
+    background: #FFFFFF;
+    padding: 1rem 1.75rem;
+    border-radius: 20px;
+    box-shadow: var(--clay-shadow-pill);
+}
+
+.clock-time {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+.clock-date {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   KPI Clay Cards Grid (5 Columns)
+   ========================================================================== */
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.kpi-card {
+    background: #F8FAFC;
+    border-radius: 24px;
+    padding: 1.4rem;
+    box-shadow: var(--clay-shadow-card);
+    display: flex;
+    align-items: flex-start;
+    gap: 1.1rem;
+    position: relative;
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px) scale(1.02);
+}
+
+.kpi-icon {
+    font-size: 2rem;
+    background: #EEF2FF;
+    padding: 0.6rem 0.8rem;
+    border-radius: 18px;
+    box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.9), inset -2px -2px 4px rgba(0,0,0,0.06);
+}
+
+.kpi-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.kpi-title {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: var(--color-text-muted);
+    letter-spacing: 0.5px;
+}
+
+.kpi-value {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0.25rem 0;
+    color: var(--color-text-main);
+}
+
+.kpi-sub {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--color-text-dim);
+}
+
+/* ==========================================================================
+   Content Panels Layout
+   ========================================================================== */
+.hp-content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.75rem;
+}
+
+.hp-panel {
+    background: #F8FAFC;
+    border-radius: 28px;
+    padding: 1.75rem;
+    box-shadow: var(--clay-shadow-card);
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.75rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 2px dashed #E2E8F0;
+}
+
+.panel-title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.panel-title-group h2 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--color-text-main);
+}
+
+.hp-badge {
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    box-shadow: var(--clay-shadow-pill);
+}
+
+.badge-green { background: #ECFDF5; color: var(--color-success); }
+.badge-blue { background: #EEF2FF; color: var(--color-primary); }
+
+/* Participation Tracker */
+.participation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.part-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.98rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.part-stats {
+    color: var(--color-primary);
+    font-weight: 800;
+}
+
+.progress-track {
+    height: 14px;
+    background: #E2E8F0;
+    border-radius: 999px;
+    padding: 2px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1), inset -2px -2px 4px rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #6366F1, #A855F7);
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(99, 102, 241, 0.4);
+    transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Clay Tables */
+.subpanel-section {
+    margin-top: 1.75rem;
+}
+
+.subpanel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.subpanel-header h3 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--color-text-main);
+}
+
+.table-responsive {
+    overflow-x: auto;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.hp-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.9rem;
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hp-table th, .hp-table td {
+    padding: 0.9rem 1.1rem;
+    text-align: left;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+.hp-table th {
+    background: #EEF2FF;
+    color: var(--color-primary);
+    font-weight: 800;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.hp-table tbody tr:hover {
+    background: #F8FAFC;
+}
+
+.active-row {
+    background: #EEF2FF !important;
+    font-weight: 700;
+}
+
+.special-row {
+    background: #FEF3C7 !important;
+}
+
+/* Clay Contact Card */
+.contact-card {
+    background: #FFFFFF;
+    border-radius: 22px;
+    padding: 1.4rem;
+    box-shadow: var(--clay-shadow-card);
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 1.75rem;
+}
+
+.contact-avatar {
+    font-size: 2.8rem;
+    background: #EEF2FF;
+    padding: 0.6rem 0.9rem;
+    border-radius: 18px;
+    box-shadow: var(--clay-shadow-pill);
+    height: fit-content;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-label {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    font-weight: 700;
+}
+
+.c-value {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: var(--color-text-main);
+}
+
+/* Mini Grocery List */
+.grocery-mini-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.g-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 0.8rem 1rem;
+    border-radius: 16px;
+    box-shadow: var(--clay-shadow-pill);
+    font-size: 0.88rem;
+}
+
+.g-name {
+    font-weight: 700;
+    color: var(--color-text-main);
+}
+
+.g-cost {
+    font-weight: 800;
+    color: var(--color-warning);
+}
+
+/* Footer */
+.hp-footer {
+    text-align: center;
+    padding: 1.75rem;
+    color: var(--color-text-muted);
+    font-size: 0.88rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+    .hp-content-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIUB Blue Bird Mess | High Performance Management System</title>
+    <!-- Modern Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="hp-theme">
+    <!-- Top Navigation Header Bar -->
+    <header class="hp-navbar">
+        <div class="nav-container">
+            <div class="brand-group">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">
+                    <span class="brand-title">AIUB BLUE BIRD MESS</span>
+                    <span class="brand-badge">CLAYMORPHISM 3D UI v2.5</span>
+                </div>
+            </div>
+            
+            <div class="nav-controls">
+                <div class="status-pill">
+                    <span class="pulse-dot"></span> 10 Members Active
+                </div>
+                
+                <div class="view-toggle">
+                    <button class="toggle-btn active" id="btn-admin-view" onclick="switchRole('admin')">👑 Admin Panel</button>
+                    <button class="toggle-btn" id="btn-member-view" onclick="switchRole('member')">👤 Member Portal</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="hp-main">
+        <!-- Banner Header -->
+        <section class="hp-banner">
+            <div class="banner-content">
+                <div class="banner-tag">STUDENT MESS MANAGEMENT SYSTEM</div>
+                <h1 id="welcome-title">Dashboard Overview</h1>
+                <p id="welcome-subtitle">Logged in as: <strong>Mess Manager Cristiano Messi Junior</strong> (Admin)</p>
+            </div>
+            <div class="banner-clock">
+                <div class="clock-time" id="live-clock">07:30:00 AM</div>
+                <div class="clock-date" id="live-date">Monday, 27 July 2026</div>
+            </div>
+        </section>
+
+        <!-- KPI Metrics Grid (5 High Performance Cards) -->
+        <section class="kpi-grid">
+            <div class="kpi-card card-primary">
+                <div class="kpi-icon">👥</div>
+                <div class="kpi-details">
+                    <span class="kpi-title">TOTAL MEMBERS</span>
+                    <span class="kpi-value" id="kpi-members">10 Active</span>
+                    <span class="kpi-sub">Full Capacity Occupied</span>
+                </div>
+            </div>
+
+            <div class="kpi-card card-success">
+                <div class="kpi-icon">🍽️</div>
+                <div class="kpi-details">
+                    <span class="kpi-title">TODAY'S MEALS</span>
+                    <span class="kpi-value" id="kpi-today-meals">30 Meals</span>
+                    <span class="kpi-sub">100% Participation Rate</span>
+                </div>
+            </div>
+
+            <div class="kpi-card card-purple">
+                <div class="kpi-icon">📊</div>
+                <div class="kpi-details">
+                    <span class="kpi-title">MONTHLY TOTAL MEALS</span>
+                    <span class="kpi-value" id="kpi-monthly-meals">810 Meals</span>
+                    <span class="kpi-sub">July 2026 Aggregate</span>
+                </div>
+            </div>
+
+            <div class="kpi-card card-warning">
+                <div class="kpi-icon">🛒</div>
+                <div class="kpi-details">
+                    <span class="kpi-title">MONTHLY EXPENSE</span>
+                    <span class="kpi-value" id="kpi-expense">৳ 38,575.00</span>
+                    <span class="kpi-sub">Rate: ৳ 47.68 / meal</span>
+                </div>
+            </div>
+
+            <div class="kpi-card card-danger">
+                <div class="kpi-icon">💰</div>
+                <div class="kpi-details">
+                    <span class="kpi-title" id="kpi-dues-title">OUTSTANDING DUES / ADVANCE</span>
+                    <span class="kpi-value" id="kpi-dues-value">৳ 875.00</span>
+                    <span class="kpi-sub" id="kpi-dues-sub">Advance Credit Surplus</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Content Grid -->
+        <section class="hp-content-grid">
+            <!-- Left Side: Participation & Schedule -->
+            <div class="hp-panel main-panel">
+                <div class="panel-header">
+                    <div class="panel-title-group">
+                        <span class="panel-icon">🔥</span>
+                        <h2>Today's Meal Participation Details</h2>
+                    </div>
+                    <span class="hp-badge badge-green">⏳ Upcoming: Breakfast (7:30 AM)</span>
+                </div>
+
+                <div class="participation-list">
+                    <!-- Breakfast -->
+                    <div class="part-item">
+                        <div class="part-info">
+                            <span class="part-name">🍳 Breakfast Meal</span>
+                            <span class="part-stats">10 Members (100.0%)</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Lunch -->
+                    <div class="part-item">
+                        <div class="part-info">
+                            <span class="part-name">🍲 Lunch Meal</span>
+                            <span class="part-stats">10 Members (100.0%)</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Dinner -->
+                    <div class="part-item">
+                        <div class="part-info">
+                            <span class="part-name">🍗 Dinner Meal</span>
+                            <span class="part-stats">10 Members (100.0%)</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekly Menu Preview Table -->
+                <div class="subpanel-section">
+                    <div class="subpanel-header">
+                        <h3>📋 Weekly Meal Menu Schedule (July 26 - Aug 01)</h3>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="hp-table">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Day</th>
+                                    <th>Breakfast</th>
+                                    <th>Lunch</th>
+                                    <th>Dinner</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2026-07-26</td>
+                                    <td>Sunday</td>
+                                    <td>Khichuri</td>
+                                    <td>Rice, Pulse, Veg, Chicken Curry</td>
+                                    <td>Rice, Pulse, Veg Curry</td>
+                                </tr>
+                                <tr class="active-row">
+                                    <td><strong>2026-07-27</strong></td>
+                                    <td><strong>Monday</strong></td>
+                                    <td><strong>Roti, Pulse</strong></td>
+                                    <td><strong>Rice, Mashed Potato, Egg Fry</strong></td>
+                                    <td><strong>Rice, Pulse, Veg, Fish Curry</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>2026-07-28</td>
+                                    <td>Tuesday</td>
+                                    <td>Khichuri</td>
+                                    <td>Rice, Pulse, Veg, Fish Curry</td>
+                                    <td>Rice, Veg, Egg Curry</td>
+                                </tr>
+                                <tr>
+                                    <td>2026-07-29</td>
+                                    <td>Wednesday</td>
+                                    <td>Roti, Vegetable</td>
+                                    <td>Rice, Pulse, Vegetable</td>
+                                    <td>Rice, Pulse, Veg, Chicken Curry</td>
+                                </tr>
+                                <tr>
+                                    <td>2026-07-30</td>
+                                    <td>Thursday</td>
+                                    <td>Vegetable Khichuri</td>
+                                    <td>Rice, Pulse, Veg, Egg Curry</td>
+                                    <td>Rice, Pulse, Fish Curry</td>
+                                </tr>
+                                <tr class="special-row">
+                                    <td>2026-07-31</td>
+                                    <td>Friday</td>
+                                    <td>Roti, Vegetable</td>
+                                    <td>Biryani / Khichuri</td>
+                                    <td>Rice, Pulse, Beef Curry</td>
+                                </tr>
+                                <tr>
+                                    <td>2026-08-01</td>
+                                    <td>Saturday</td>
+                                    <td>Roti, Vegetable</td>
+                                    <td>Rice, Pulse, Veg, Fish Curry</td>
+                                    <td>Rice, Pulse, Veg, Egg Curry</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Manager Contact & Groceries -->
+            <div class="hp-panel side-panel">
+                <div class="panel-header">
+                    <div class="panel-title-group">
+                        <span class="panel-icon">👤</span>
+                        <h2>Mess Manager Contact</h2>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-avatar">👨‍🍳</div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="c-label">Manager Name</span>
+                            <span class="c-value">Cristiano Messi Junior</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="c-label">Contact Number</span>
+                            <span class="c-value">01710112341</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="c-label">Email Address</span>
+                            <span class="c-value">cristianomessineymar@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="c-label">Address Location</span>
+                            <span class="c-value">House #11, Road #05, Block C,<br>Bashundhara, Dhaka</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grocery & Cost Snapshot -->
+                <div class="subpanel-section">
+                    <div class="subpanel-header">
+                        <h3>🛒 Grocery Purchases (July 2026)</h3>
+                        <span class="badge-blue">Total: ৳ 38,575.00</span>
+                    </div>
+                    
+                    <div class="grocery-mini-list">
+                        <div class="g-item">
+                            <div class="g-name">Minikit Rice 50kg (2 Bags)</div>
+                            <div class="g-cost">৳ 6,500.00</div>
+                        </div>
+                        <div class="g-item">
+                            <div class="g-name">Beef 12kg (Friday Special)</div>
+                            <div class="g-cost">৳ 9,000.00</div>
+                        </div>
+                        <div class="g-item">
+                            <div class="g-name">Rui Fish 15kg</div>
+                            <div class="g-cost">৳ 4,800.00</div>
+                        </div>
+                        <div class="g-item">
+                            <div class="g-name">Farm Eggs (12 Crates / 360 pcs)</div>
+                            <div class="g-cost">৳ 4,320.00</div>
+                        </div>
+                        <div class="g-item">
+                            <div class="g-name">Fresh Farm Chicken 18kg</div>
+                            <div class="g-cost">৳ 3,780.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="hp-footer">
+        <p>AIUB Blue Bird Mess Management System &copy; 2026. High Performance Component System Enabled.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

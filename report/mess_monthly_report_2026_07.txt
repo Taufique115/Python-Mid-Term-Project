@@ -1,0 +1,37 @@
+==========================================================================
+                 MESS MEMBER MANAGEMENT SYSTEM ANALYTICS                
+                   MONTHLY REPORT: 2026-07                  
+            Report Compiled on: 2026-07-27 04:54:36            
+==========================================================================
+
+--- 👥 MEMBER ACCOUNT METRICS ---
+  • Total Registered Members   : 10 Members
+  • Active Meals Count (Month) : 809 Meals
+  • Average Meals per Member   : 80.90 Meals
+
+--- 🛒 GROCERY & EXPENDITURES SUMMARY (NumPy Powered) ---
+  • Total Grocery Cost         : ৳ 38575.00
+  • Average Purchase Size      : ৳ 3857.50
+  • Median Purchase Size       : ৳ 3252.50
+  • Standard Deviation of Cost : ৳ 2279.38
+  • Max Single Purchase Value  : ৳ 9000.00
+  • Min Single Purchase Value  : ৳ 1600.00
+  • Purchase Transaction Volume: 10 Entries
+  • Calculated Unit Meal Rate  : ৳ 47.6823 per meal
+
+--- 💰 COLLECTIONS & OUTSTANDING DUES (NumPy Powered) ---
+  • Total Payments Collected   : ৳ 1440.00
+  • Max Single Member Payment  : ৳ 880.00
+  • Total Outstanding Balances : ৳ 45086.85
+  • Average Dues Outstanding   : ৳ 4508.69
+  • Highest Single Dues Account: ৳ 8047.27
+
+--- 🍽️ DAILY PARTICIPATION STATISTICS ---
+  • Todays Date                : 2026-07-27
+  • Todays Active Eaters (Avg) : 10.0 / 10 members
+  • Attendance Breakdown       : Breakfast: 10 | Lunch: 10 | Dinner: 10
+  • Participation Percentage   : 100.00%
+
+==========================================================================
+                       AIUB Blue Mess Management Inc.                     
+==========================================================================
